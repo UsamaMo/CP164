@@ -1,0 +1,94 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Usama Mohiuddin\Documents\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\CP104 Review Materials\com.python.pydev.analysis\v2_indexcache
+a_samples|1642126648313213600|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\a_samples.py
+r10|1643089658090288900|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r10.py
+r01|1642100760808223200|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r01.py
+r12|1643090366361918700|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r12.py
+r11|1643090336179322900|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r11.py
+r03|1643080325635270000|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r03.py
+r02|1643080326168842200|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r02.py
+r05|1643087366490675600|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r05.py
+r04|1643080594958318000|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r04.py
+r07|1643087814747131500|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r07.py
+r06|1643087432466176400|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r06.py
+r09|1643089061869178600|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r09.py
+r08|1643088086337904300|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r08.py
+-- END DISKCACHE
+-- START DICTIONARY
+22
+13=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r10.py
+15=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r09.py
+7=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r11.py
+4=a_samples
+3=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\a_samples.py
+14=r10
+8=r11
+10=r03
+12=r02
+20=r05
+2=r04
+22=r07
+1=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r04.py
+6=r06
+9=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r03.py
+11=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r02.py
+16=r09
+18=r08
+5=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r06.py
+17=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r08.py
+19=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r05.py
+21=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 Review Materials\src\r07.py
+-- END DICTIONARY
+-- START TREE 1
+46
+L|1|L!1^12#1*19@
+S|1|S!1^13#1*19@
+a|1|a!3^75#1*35@
+ave|1|average!3^70#1*35@
+bmi|2|bmi!5^17#1*51@BMI!5^18#1*51@
+bri|1|bricks!7^17#1*67@
+c|2|c!9^16#1*83@c!11^13#1*99@
+c_f|1|c_foundation!7^19#1*67@
+cak|1|cake!13^13#1*115@
+cob|1|cob!7^22#1*67@
+coc|1|coc!7^20#1*67@
+con|2|concrete!7^16#1*67@cont!3^62#1*35@
+cou|1|count!3^60#1*35@
+dat|1|date!15^12#1*131@
+day|1|day!15^16#1*131@
+dif|1|diff!13^17#1*115@
+f|3|f!11^15#1*99@f!9^14#1*83@f!17^14#1*147@
+fin|1|final!13^20#1*115@
+fly|3|flyers!19^12#1*163@flyers_left!19^16#1*163@flyers_per!19^15#1*163@
+fre|2|freezing!11^11#1*99@freezing!9^12#1*83@
+g|1|g!17^15#1*147@
+goe|1|goers!13^14#1*115@
+gue|1|guess!3^48#1*35@
+hei|2|height!7^14#1*67@height!5^12#1*51@
+i|1|i!3^77#1*35@
+len|1|length!7^12#1*67@
+mon|1|month!15^15#1*131@
+n|1|n!3^78#1*35@
+num|2|num_one!1^15#1*19@num_two!1^16#1*19@
+pos|1|positive!17^12#1*147@
+pro|1|product!17^17#1*147@
+rem|1|remainder!13^16#1*115@
+sal|1|sales!21^14#1*179@
+sec|1|secret_number!3^49#1*35@
+spl|1|split!13^18#1*115@
+tax|2|TAX!21^12#1*179@tax!21^16#1*179@
+tot|3|total!3^61#1*35@total!7^23#1*67@total!1^18#1*19@
+up_|1|up_bmi!5^14#1*51@
+v|1|v!3^38#9*35@
+val|1|value!3^65#5*35@
+vol|1|volunteers!19^13#1*163@
+w_h|1|w_height!7^15#1*67@
+wal|1|wall!7^21#1*67@
+wei|1|weight!5^13#1*51@
+wid|1|width!7^13#1*67@
+yea|1|year!15^14#1*131@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

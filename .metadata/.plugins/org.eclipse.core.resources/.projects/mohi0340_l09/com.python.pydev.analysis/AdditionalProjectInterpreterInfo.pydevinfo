@@ -1,0 +1,32 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Usama Mohiuddin\Documents\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\mohi0340_l09\com.python.pydev.analysis\v2_indexcache
+functions|1647764511997305800|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l09\src\functions.py
+t01|1647767766928935200|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l09\src\t01.py
+t03|1647765166016960900|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l09\src\t03.py
+t02|1647767981047993200|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l09\src\t02.py
+t04|1647768139414174500|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l09\src\t04.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+1=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l09\src\t04.py
+4=t01
+6=functions
+7=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l09\src\t03.py
+5=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l09\src\functions.py
+8=t03
+10=t02
+3=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l09\src\t01.py
+2=t04
+9=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l09\src\t02.py
+-- END DICTIONARY
+-- START TREE 1
+4
+arr|1|array!1^16#1*19@
+foo|2|food2!3^18#1*35@food1!3^16#1*35@
+has|4|hash!1^14#1*19@hash_table!5^13#5*50@hash!7^14#1*67@hash!9^14#1*83@
+rem|1|removed!9^22#1*83@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

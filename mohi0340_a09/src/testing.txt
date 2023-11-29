@@ -1,0 +1,55 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Usama Mohiuddin
+ID:      212090340
+Email:   mohi0340@mylaurier.ca
+Version: 2022-03-05
+-------------------------------------------------------
+"""
+
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Using array-based list Hash_Set
+
+Comparisons Total Count: 841,732
+Word with most comparisons 'the': 14,709
+
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Using array-based Sorted List Hash_Set
+
+Comparisons Total Count: 1,236,934
+Word with Most Comparisons 'the': 43,672
+
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Using linked BST Hash_Set
+
+Comparisons Total Count: 1,236,934
+Word with Most Comparisons 'the': 43,672
+
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+No Children Node Count: 
+1
+
+One Child Node Count: 
+9
+
+Two Children Node Count: 
+0
+
+Does BST contains 10?: 
+True
+
+Parent Node for 10: 
+9
+
+Parent Node for 5 (recursively): 
+4

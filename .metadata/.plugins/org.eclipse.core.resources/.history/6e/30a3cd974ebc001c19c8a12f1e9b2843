@@ -1,0 +1,463 @@
+"""
+-------------------------------------------------------
+Linked version of the Deque Set ADT.
+-------------------------------------------------------
+Author: Usama Mohiuddin
+ID:     212090340
+Email:  mohi0340@mylaurier.ca
+__updated__ = "2022-04-14"
+-------------------------------------------------------
+"""
+# pylint: disable=protected-access
+
+# Imports
+from copy import deepcopy
+
+
+class _Deque_Set_Node:
+
+    def __init__(self, value, _prev, _next):
+        """
+        -------------------------------------------------------
+        Initializes a Deque_Set node.
+        Use: node = _Deque_Set_Node(value, _prev, _next)
+        -------------------------------------------------------
+        Parameters:
+            value - value value for node (?)
+            _prev - another Deque_Set node (_Deque_Set_Node)
+            _next - another Deque_Set node (_Deque_Set_Node)
+        Returns‌‌‌‌​​‌​:
+            a new _Deque_Set_Node object (_Deque_Set_Node)
+
+        -------------------------------------------------------
+        """
+        self._value = deepcopy(value)
+        self._prev = _prev
+        self._next = _next
+
+
+class Deque_Set:
+
+    def __init__(self):
+        """
+        -------------------------------------------------------
+        Initializes an empty Deque_Set.
+        Use: d = Deque_Set()
+        -------------------------------------------------------
+        Returns‌‌‌‌​​‌​:
+            a new Deque_Set object (Deque_Set)
+        -------------------------------------------------------
+        """
+        self._front = None
+        self._rear = None
+        self._count = 0
+
+    def _linear_search(self, key):
+        """
+        -------------------------------------------------------
+        Private helper method.
+        Searches for key in a Deque_Set.
+        Use: curr = self._linear_search(key)
+        -------------------------------------------------------
+        Parameters:
+            key - a partial data element (*)
+        Returns‌‌‌‌​​‌​:
+            curr - pointer to node containing key, None if not found (_Deque_Set_Node)
+        -------------------------------------------------------
+        """
+
+        # there is no previous node at the start before self._front
+        # Initialize previous node
+        previous = None
+
+        # curr is set to the first node in the linked list
+        curr = self._front
+
+        # index position is 0 at start
+        index = 0
+
+        # while curr node is not empty the value is not equal to key
+        # stop once the the key is found
+        # stop at None if key is not found
+        while curr is not None and curr._value != key:
+            # print(curr._value, end=", ")
+
+            previous = curr
+            # and curr node is moved to the next node
+            curr = curr._next
+            # and 1 index is added to goto the next index of the list
+            index += 1
+
+        # if curr node is empty
+        # if key is not found set index to negative 1
+        if curr is None:
+            # index DNE and is at negative 1
+            index = -1
+
+        return curr
+
+    def _move_front_to_rear(self, source):
+        """
+        -------------------------------------------------------
+        Private helper method.
+        Moves the front node from source to the rear of self.
+        Does *not* validate that self is still a set.
+        Use: self._move_front_to_rear(source)
+        -------------------------------------------------------
+        Parameters:
+            source - a non-empty Deque_Set (Deque_Set)
+        Returns‌‌‌‌​​‌​:
+            self contains the old front of source as its rear.
+            source front is updated. The counts of self and source are updated.
+        -------------------------------------------------------
+        """
+        assert source._front is not None, \
+            "Cannot move the front of an empty Deque_Set"
+
+        # if the front node is equal to None(queue is empty or is finished)
+        if self._front is None:
+            # set the front node of self to the front of source node
+            self._front = source._front
+            # sets the rear node of self to the front of self node
+            self._rear = self._front
+        # otherwise
+        else:
+            # the node after rear is equal to the front node of source
+            self._rear._next = source._front
+            # rear of self node is equal to the front node of source
+            self._rear = source._front
+        # if front node of source is EQUAL to last node in queue
+        if source._front == source._rear:
+            # set source front and rear to None
+            source._front = None
+            source._rear = None
+        # otherwise if front node of source and rear are not EQUAL
+        else:
+            # set front node of source to the node after it
+            source._front = source._front._next
+        # set the node after rear to None like it should be
+        self._rear._next = None
+        # increase the count by 1
+        self._count += 1
+        # since front node is removed from Source to Target
+        # remove 1 count(node)
+        source._count -= 1
+        return
+
+    def is_empty(self):
+        """
+        -------------------------------------------------------
+        Determines if a Deque_Set is empty.
+        Use: b = source.is_empty()
+        -------------------------------------------------------
+        Returns‌‌‌‌​​‌​:
+            True if source is empty, False otherwise.
+        -------------------------------------------------------
+        """
+
+        return self._count == 0
+
+    def __len__(self):
+        """
+        -------------------------------------------------------
+        Returns the size of a Deque_Set.
+        Use: n = len(source)
+        -------------------------------------------------------
+        Returns‌‌‌‌​​‌​:
+            the number of values in source (int)
+        -------------------------------------------------------
+        """
+
+        return self._count
+
+    def insert_front(self, value):
+        """
+        -------------------------------------------------------
+        Inserts a copy of value into the front of a Deque_Set.
+        value cannot already be in the Deque_Set.
+        Updates _count appropriately.
+        Use: source.insert_front(value)
+        -------------------------------------------------------
+        Parameters:
+            value - a data element (*)
+        Returns‌‌‌‌​​‌​:
+            inserted - True if value is added to front of source, False otherwise.
+        -------------------------------------------------------
+        """
+
+        new_node = _Deque_Set_Node(value, None, self._front)
+        
+        if self._front == None:
+            self._front = new_node
+         
+            self._rear = self._front
+        else:
+     
+            self._front._prev = new_node
+      
+            self._front = new_node
+        self._count += 1
+        
+        
+     
+        if self._count >
+            Inserted = True
+        else:
+            Inserted = False
+            
+        return Inserted
+
+    def insert_rear(self, value):
+        """
+        -------------------------------------------------------
+        Inserts a copy of value into the front of a Deque_Set.
+        value cannot already be in the Deque_Set.
+        Updates _count appropriately.
+        Use: source.insert_rear(value)
+        -------------------------------------------------------
+        Parameters:
+            value - a data element (*)
+        Returns‌‌‌‌​​‌​:
+            inserted - True if value is added to rear of source, False otherwise.
+        -------------------------------------------------------
+        """
+
+        new_node = _Deque_Node(value, self._rear, None)
+        if self._front == None:
+            self._front = new_node
+            self._rear = self._front
+        else:
+            self._rear._next = new_node
+            self._rear = new_node
+        self._count += 1
+        return
+
+       
+
+    def remove_front(self):
+        """
+        -------------------------------------------------------
+        Removes and returns value from the front of a Deque_Set.
+        Updates _count appropriately.
+        Use: v = source.remove_front()
+        -------------------------------------------------------
+        Returns‌‌‌‌​​‌​:
+            value - the value at the front of source (*)
+        -------------------------------------------------------
+        """
+        assert self._front is not None, "Cannot remove from an empty Deque_Set"
+
+        value = self._front._value
+        if self._front == self._rear:
+            self._front = None
+            self._rear = self._front
+        else:
+            self._front = self._front._next
+            self._front._prev = None
+        self._count -= 1
+        return value
+
+
+    def remove_rear(self):
+        """
+        -------------------------------------------------------
+        Removes and returns value from the rear of a Deque_Set.
+        Updates _count appropriately.
+        Use: v = source.remove_rear()
+        -------------------------------------------------------
+        Returns‌‌‌‌​​‌​:
+            value - the value at the rear of source (*)
+        -------------------------------------------------------
+        """
+        assert self._rear is not None, "Cannot remove from an empty Deque_Set"
+
+        value = self._rear._value
+        if self._front == self._rear:
+            self._front = None
+            self._rear = self._front
+        else:
+            self._rear = self._rear._prev
+            self._rear._next = None
+        self._count -= 1
+        return value
+
+
+    def remove(self, key):
+        """
+        -------------------------------------------------------
+        Finds, removes, and returns the value in source that matches key.
+        Updates _count appropriately.
+        Use: value = source.remove(key)
+        -------------------------------------------------------
+        Parameters:
+            key - a partial data element (*)
+        Returns‌‌‌‌​​‌​:
+            value - the full value matching key, otherwise None (*)
+        -------------------------------------------------------
+        """
+        previous, current, _ = self._linear_search(key)
+
+     
+        if current is None:
+            value = None
+        else:            
+            value = current._value
+            self._count -= 1
+            if previous is None:                
+                self._front = self._front._next
+
+               
+                if self._front is None:
+                    self._rear = None
+            else:                
+                previous._next = current._next
+               
+                if previous._next is None:                   
+                    self._rear = previous
+        return value
+      
+
+    def max(self):
+        """
+        -------------------------------------------------------
+        Finds the maximum value in a Deque_Set.
+        Use: value = source.max()
+        -------------------------------------------------------
+        Returns‌‌‌‌​​‌​:
+            a copy of the maximum value in source (?)
+        -------------------------------------------------------
+        """
+        assert self._front is not None, "Cannot find maximum of an empty Deque_Set"
+
+        
+        max_node = self._front
+        current = self._front._next
+
+        
+        while current is not None:
+            if max_node._value < current._value:
+               
+                max_node = current
+          
+            current = current._next
+    
+        max_data = deepcopy(max_node._value)
+        return max_data
+
+        return
+
+    def split_key(self, key):
+        """
+        -------------------------------------------------------
+        Splits source so that target1 contains all values < key,
+        and target2 contains all values >= key. source is empty
+        when finished.
+        Nodes are moved, values are not copied.
+        Updates _count appropriately.
+        Use: target1, target2 = source.split_key(key)
+        -------------------------------------------------------
+        Parameters:
+            key - a key value to split source upon (?)
+        Returns‌‌‌‌​​‌​:
+            target1 - a new Deque_Set of values < key (Deque_Set)
+            target2 - a new Deque_Set of values >= key (Deque_Set)
+        -------------------------------------------------------
+        """
+
+        target1 = List()
+        target2 = List()
+
+        while self._front is not None:
+
+            if self._front._value < key:
+                target1._move_front_to_rear(self)
+            else:
+                target2._move_front_to_rear(self)
+        return target1, target2
+
+
+    def combine(self, source1, source2):
+        """
+        -------------------------------------------------------
+        Combines source1 and source2 into target.
+        When finished, the contents of source1 and source2 are interlaced
+        into target and source1 and source2 are empty.
+        Order of source values is preserved.
+        Values may appear only once in target.
+        Nodes are moved, values are not copied.
+        Updates _count appropriately.
+        Use: target.combine(source1, source2)
+        -------------------------------------------------------
+        Parameters:
+            source1 - a Deque_Set (Deque_Set)
+            source2 - a Deque_Set (Deque_Set)
+        Returns‌‌‌‌​​‌​:
+            None
+        -------------------------------------------------------
+        """
+        assert self._front is None, "target must be empty"
+        source1 = Deque_Set()
+        source2 = Deque_Set()
+        
+       while source1._count > 0 or source2._count > 0:
+            # if source 1 is not empty
+            if source1._count > 0:
+                # move the front node of source 1 into self queue
+                self._move_front(source1)
+            # if source 2 is not empty
+            if source2._count > 0:
+                # move the front node of source 2 into self queue
+                self._move_front(source2)
+        return
+
+      
+
+# DO NOT CHANGE CODE BELOW THIS LINE
+# =======================================================================
+
+    def peek_front(self):
+        """
+        -------------------------------------------------------
+        Peeks at the front of a Deque_Set.
+        Use: v = source.peek_front()
+        -------------------------------------------------------
+        Returns‌‌‌‌​​‌​:
+            a copy of the value at the front of source (?)
+        -------------------------------------------------------
+        """
+        assert self._front is not None, "Cannot peek at an empty Deque_Set"
+
+        return deepcopy(self._front._value)
+
+    def peek_rear(self):
+        """
+        -------------------------------------------------------
+        Peeks at the rear of a Deque_Set.
+        Use: v = source.peek_rear()
+        -------------------------------------------------------
+        Returns‌‌‌‌​​‌​:
+            a copy of the value at the rear of source (?)
+        -------------------------------------------------------
+        """
+        assert self._rear is not None, "Cannot peek at an empty Deque_Set"
+
+        return deepcopy(self._rear._value)
+
+    def __iter__(self):
+        """
+        USE FOR TESTING ONLY
+        -------------------------------------------------------
+        Generates a Python iterator. Iterates through the deque
+        from front to rear.
+        Use: for v in d:
+        -------------------------------------------------------
+        Returns‌‌‌‌​​‌​:
+            yields
+            value - the next value in the deque (?)
+        -------------------------------------------------------
+        """
+        current = self._front
+
+        while current is not None:
+            yield current._value
+            current = current._next

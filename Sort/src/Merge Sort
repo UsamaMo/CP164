@@ -1,0 +1,101 @@
+#ARRAY BASED IMPLEMENTATION
+def merge_sort(a):
+    _merge_sort_aux(a, 0, len(a) - 1)
+    return
+
+def _merge_sort_aux(a, first, last):
+    if first < last:
+        middle = (last - first) // 2 + first
+        _merge_sort_aux(a, first, middle)
+        _merge_sort_aux(a, middle + 1, last)
+        _merge(a, first, middle, last)
+    return
+
+def _merge(a, first, middle, last):
+    temp = []
+    i = first
+    j = middle + 1
+
+    while i <= middle and j <= last:
+
+        if a[i] <= a[j]:
+            # put leftmost element of left array into temp array
+            temp.append(a[i])
+            i += 1
+        else:
+            # put leftmost element of right array into temp array
+            temp.append(a[j])
+            j += 1
+
+    # copy any remaining elements from the left half
+    while i <= middle:
+        temp.append(a[i])
+        i += 1
+
+    # copy any remaining elements from the right half
+    while j <= last:
+        temp.append(a[j])
+        j += 1
+
+    # copy the temporary array back to the passed array
+    for i in range(len(temp)):
+        a[first + i] = temp[i]
+    return
+    
+#LINKED MERGE SORT IMPLEMENTATION
+def merge_sort(a):
+    if a._count >= 2:
+        # Split the list only if there are at least two elements.
+        # Generate the left and right lists.
+        left, right = Sorts._merge_split(a)
+        # Sort the left list.
+        merge_sort(left)
+        # Sort the right list.
+        merge_sort(right)
+        # Merge the left and right lists back into a.
+        _merge(a, left, right)
+    return
+
+def _merge_split(source):
+    # Split the list by count.
+    count = source._count // 2
+    curr = source._front
+
+    for _ in range(count - 1):
+        curr = curr._next
+
+    # Define the left list.
+    left = List()
+    left._front = source._front
+    left._rear = curr
+    left._count = count
+    # Define the right list.
+    right = List()
+    right._front = curr._next
+    right._rear = source._rear
+    right._count = source._count - count
+    # Break the link between the two lists.
+    left._rear._next = None
+    # Empty the source list.
+    source.clear()
+    return left, right
+
+def _merge(target, left, right):
+    # Traverse left and right appending larger value to rear of target.
+    while left._front is not None and right._front is not None:
+
+        if left._front._value <= right._front._value:
+            target._move_front_to_rear(left)
+        else:
+            target._move_front_to_rear(right)
+
+    # Append the remaining list - O(1) operation.
+    if left._front is not None:
+        target._append_list(left)
+    elif right._front is not None:
+        target._append_list(right)
+    return
+    
+#BIG O
+T(n) = 2T(n/2)+O(n) ---> O(nlogn)
+T(n) = 2T(n/2)+n^2 ---> O(n^2)

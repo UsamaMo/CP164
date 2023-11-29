@@ -1,0 +1,95 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Usama Mohiuddin\Documents\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\TEST\com.python.pydev.analysis\v2_indexcache
+CP104_Review_Gurpa|1644792437185211600|C:\Users\Usama Mohiuddin\Documents\CP164\TEST\src\CP104_Review_Gurpa.py
+CP164_Review_Gurpa|1644797702257685300|C:\Users\Usama Mohiuddin\Documents\CP164\TEST\src\CP164_Review_Gurpa.py
+Set_Array|1644883957897003300|C:\Users\Usama Mohiuddin\Documents\CP164\TEST\src\Set_Array.py
+test_stack|1644869397564510600|C:\Users\Usama Mohiuddin\Documents\CP164\TEST\src\test_stack.py
+test|1644866847612857600|C:\Users\Usama Mohiuddin\Documents\CP164\TEST\src\test.py
+Insertion_Tester|1663107891284663800|C:\Users\Usama Mohiuddin\Documents\CP164\TEST\src\Insertion_Tester.py
+tester|1663108806691341900|C:\Users\Usama Mohiuddin\Documents\CP164\TEST\src\tester.py
+Syntax_For_While|1644884026740896700|C:\Users\Usama Mohiuddin\Documents\CP164\TEST\src\Syntax_For_While.py
+Stack|1644866686319707700|C:\Users\Usama Mohiuddin\Documents\CP164\TEST\src\Stack.py
+-- END DISKCACHE
+-- START DICTIONARY
+24
+12=Set_Array
+13=Set
+21=cQueue.remove
+8=test
+24=Stack.__init__
+18=cQueue.__init__
+3=C:\Users\Usama Mohiuddin\Documents\CP164\TEST\src\Insertion_Tester.py
+4=Insertion_Tester
+19=Set._set_slot
+23=pQueue.__init__
+2=tester
+1=C:\Users\Usama Mohiuddin\Documents\CP164\TEST\src\tester.py
+11=C:\Users\Usama Mohiuddin\Documents\CP164\TEST\src\Set_Array.py
+16=pQueue
+17=Set.__init__
+6=Stack
+22=Queue.__init__
+7=C:\Users\Usama Mohiuddin\Documents\CP164\TEST\src\test.py
+10=test_stack
+20=cQueue.insert
+15=cQueue
+5=C:\Users\Usama Mohiuddin\Documents\CP164\TEST\src\Stack.py
+9=C:\Users\Usama Mohiuddin\Documents\CP164\TEST\src\test_stack.py
+14=Queue
+-- END DICTIONARY
+-- START TREE 1
+16
+A|1|A!1^13#1*19@
+a|1|a!3^11#1*35@
+cqu|1|cQueue!5^319#7*49@
+i|1|i!7^135#1*67@
+j|2|j!1^12#1*19@j!3^17#5*35@
+key|2|key!7^132#1*67@key!1^16#5*19@
+n|2|n!3^13#1*35@n!7^134#1*67@
+pee|1|peek!9^32#1*83@
+pqu|1|pQueue!5^525#7*49@
+que|1|Queue!5^159#7*49@
+r|1|r!9^37#1*83@
+set|1|Set!11^32#7*97@
+sou|2|source2!9^17#1*83@source1!9^16#1*83@
+sta|1|Stack!5^15#7*49@
+tar|1|target!9^15#1*83@
+val|1|values!7^133#1*67@
+-- END TREE
+-- START TREE 2
+33
+__c|1|__contains__!13&11^283#9*98@
+__i|6|__init__!6&5^23#9*50@__init__!14&5^168#9*50@__init__!15&5^327#9*50@__init__!16&5^535#9*50@__iter__!13&11^424#9*98@__init__!13&11^53#9*98@
+__l|4|__len__!14&5^276#9*50@__len__!15&5^459#9*50@__len__!16&5^666#9*50@__len__!13&11^106#9*98@
+__s|4|__str__!6&5^133#9*50@__str__!14&5^292#9*50@__str__!15&5^474#9*50@__str__!16&5^682#9*50@
+_ca|1|_capacity!17&11^67#9*99@
+_co|1|_count!17&11^73#9*99@
+_cu|1|_current_size!18&5^345#9*51@
+_fi|2|_first!17&11^71#9*99@_first!19&11^180#13*99@
+_fr|3|_front!18&5^347#9*51@_front!20&5^387#13*51@_front!21&5^422#13*51@
+_it|3|_items!22&5^185#9*51@_items!18&5^346#9*51@_items!23&5^552#9*51@
+_li|1|_linear_search!13&11^121#9*98@
+_ma|1|_max_size!18&5^344#9*51@
+_mo|1|_mode!23&5^554#9*51@
+_re|3|_rear!18&5^348#9*51@_rear!20&5^388#13*51@_rear!21&5^423#13*51@
+_se|1|_set_slot!13&11^161#9*98@
+_si|2|_size!22&5^186#9*51@_size!23&5^553#9*51@
+_va|1|_values!17&11^69#9*99@
+def|4|DEFAULT_SIZE!14&5^166#5*51@DEFAULT_SIZE!15&5^325#5*51@DEFAULT_SIZE!16&5^533#5*51@DEFAULT_SIZE!13&11^51#5*99@
+del|1|delete!13&11^235#9*98@
+dif|1|difference!13&11^375#9*98@
+fin|1|find!13&11^260#9*98@
+ins|4|insert!13&11^211#9*98@insert!14&5^207#9*50@insert!15&5^369#9*50@insert!16&5^585#9*50@
+int|1|intersection!13&11^348#9*98@
+is_|10|is_full!6&5^117#9*50@is_full!14&5^261#9*50@is_full!15&5^444#9*50@is_full!16&5^651#9*50@is_full!13&11^91#9*98@is_empty!6&5^102#9*50@is_empty!14&5^246#9*50@is_empty!15&5^429#9*50@is_empty!16&5^636#9*50@is_empty!13&11^75#9*98@
+ite|1|items!24&5^38#9*51@
+max|1|maximum!13&11^300#9*98@
+min|1|minimum!13&11^324#9*98@
+pee|4|peek!6&5^41#9*50@peek!14&5^188#9*50@peek!15&5^350#9*50@peek!16&5^556#9*50@
+pop|1|pop!6&5^81#9*50@
+pri|2|print!15&5^499#9*50@print_set!13&11^405#9*98@
+pus|1|push!6&5^62#9*50@
+rem|3|remove!14&5^226#9*50@remove!15&5^397#9*50@remove!16&5^605#9*50@
+siz|1|size!24&5^39#9*51@
+-- END TREE

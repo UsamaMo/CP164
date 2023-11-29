@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;mohi0340_data_structures/src/Queue_Array.py&apos;" deleteContents="false" description="Delete resource &apos;mohi0340_data_structures/src/Queue_Array.py&apos;" element1="/mohi0340_data_structures/src/Queue_Array.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1643525344758"/>
+</session>

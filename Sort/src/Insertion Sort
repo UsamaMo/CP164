@@ -1,0 +1,59 @@
+
+#ARRAY BASED INSERTION SORT
+def insertion_sort(a):
+    n = len(a)
+
+    for i in range(1, n):
+        # Traverse entire array, shift the next value into its
+        # proper spot in the sorted part of a.
+        key = \(a[i]\)
+        j = i - 1
+
+        while j >= 0 and a[j] > key:
+            # Move backwards through sorted sequence a[0...j-1]
+            # Shift values to the right until proper place found
+            a[j + 1] = a[j]
+            j = j - 1
+        a[j + 1] = key
+    return
+
+#LINKED BASED INSERTION SORT
+
+def insertion_sort(a):
+    # Split the list into the sorted (_front) and unsorted parts.
+    unsorted = a._front
+    a._front = None
+
+    # Go through each node in the unsorted list and insert it into the
+    # proper position in the sorted list.
+    while unsorted is not None:
+        # Isolate the first key_node of the unsorted list.
+        key_node = unsorted
+        unsorted = unsorted._next
+        # Find the proper place for the new key_node in the sorted list.
+        # (Very similar to Priority Queue insertion.)
+        prev = None
+        curr = a._front
+
+        while curr is not None and curr._value < key_node._value:
+            prev = curr
+            curr = curr._next
+
+        # Insert key_node into the proper place in the sorted list.
+        if prev is None:
+            key_node._next = a._front
+            a._front = key_node
+        else:
+            key_node._next = curr
+            prev._next = key_node
+
+        if key_node._next is None:
+            # Update the _rear link.
+            a._rear = key_node
+    return
+    
+    
+#BIG 0
+
+best case- O(n)
+worst case - O(n^2)

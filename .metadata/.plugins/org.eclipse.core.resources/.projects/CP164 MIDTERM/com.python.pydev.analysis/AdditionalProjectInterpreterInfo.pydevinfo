@@ -1,0 +1,37 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Usama Mohiuddin\Documents\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\CP164 MIDTERM\com.python.pydev.analysis\v2_indexcache
+stack|1644513355626269300|C:\Users\Usama Mohiuddin\Documents\CP164\CP164 MIDTERM\src\stack.py
+priority_queue|1644512615727299300|C:\Users\Usama Mohiuddin\Documents\CP164\CP164 MIDTERM\src\priority_queue.py
+queue|1644512846081944800|C:\Users\Usama Mohiuddin\Documents\CP164\CP164 MIDTERM\src\queue.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+6=stack
+3=C:\Users\Usama Mohiuddin\Documents\CP164\CP164 MIDTERM\src\queue.py
+2=priority_queue
+5=C:\Users\Usama Mohiuddin\Documents\CP164\CP164 MIDTERM\src\stack.py
+1=C:\Users\Usama Mohiuddin\Documents\CP164\CP164 MIDTERM\src\priority_queue.py
+4=queue
+-- END DICTIONARY
+-- START TREE 1
+15
+a|1|a!1^38#1*19@
+b|2|b!1^28#1*19@b!3^27#1*35@
+c|1|c!3^33#1*35@
+d|1|d!3^41#1*35@
+e|1|e!3^44#1*35@
+emp|1|empty!5^30#1*51@
+l|0|
+len|1|length!1^41#1*19@
+pee|1|peek!5^27#1*51@
+que|2|queue!1^15#1*19@queue!3^15#1*35@
+rev|0|
+s|1|s!5^14#1*51@
+sta|0|
+tar|0|
+val|0|
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

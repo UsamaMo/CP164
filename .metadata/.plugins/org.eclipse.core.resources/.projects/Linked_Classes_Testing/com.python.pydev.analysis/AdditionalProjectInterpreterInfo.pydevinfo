@@ -1,0 +1,38 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Usama Mohiuddin\Documents\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\Linked_Classes_Testing\com.python.pydev.analysis\v2_indexcache
+Stack_linked|1649718111466462400|C:\Users\Usama Mohiuddin\Documents\CP164\Linked_Classes_Testing\src\Stack_linked.py
+-- END DISKCACHE
+-- START DICTIONARY
+9
+8=Stack.push
+1=C:\Users\Usama Mohiuddin\Documents\CP164\Linked_Classes_Testing\src\Stack_linked.py
+7=Stack.__init__
+9=Stack.pop
+2=Stack_linked
+4=_Stack_Node
+6=Stack.reverse
+5=_Stack_Node.__init__
+3=Stack
+-- END DICTIONARY
+-- START TREE 1
+2
+_st|1|_Stack_Node!1^15#7*17@
+sta|1|Stack!1^41#7*17@
+-- END TREE
+-- START TREE 2
+13
+__i|3|__iter__!3&1^255#9*18@__init__!4&1^17#9*18@__init__!3&1^43#9*18@
+_mo|1|_move_top!3&1^154#9*18@
+_ne|1|_next!5&1^36#9*19@
+_re|1|_rear!6&1^136#9*19@
+_to|4|_top!7&1^55#9*19@_top!8&1^83#9*19@_top!9&1^103#9*19@_top!6&1^140#9*19@
+_va|1|_value!5&1^34#9*19@
+com|1|combine!3&1^184#9*18@
+is_|1|is_empty!3&1^57#9*18@
+pee|1|peek!3&1^107#9*18@
+pop|1|pop!3&1^86#9*18@
+pus|1|push!3&1^70#9*18@
+rev|1|reverse!3&1^125#9*18@
+spl|1|split_alt!3&1^223#9*18@
+-- END TREE

@@ -1,0 +1,27 @@
+#ARRAY BASED IMPLEMENTATION
+def shell_sort(a):
+    n = len(a)
+    gap = int(n / 2.2)
+
+    while gap > 0:
+        i = gap
+
+        for i in range(gap, n):
+            key = a[i]
+            j = i
+
+            while j >= gap and a[j - gap] > key:
+                # insert a[i] in the the subarray containing
+                # values that are gap apart and before
+                # index i. The subarray is sorted.
+                a[j] = a[j - gap]
+                j = j - gap
+
+            # put key (a[i]) in its correct place
+            a[j] = key
+        gap = int(gap // 2.2)
+    return
+
+    
+#LINKED BASED
+linked implementation is not well suited to this

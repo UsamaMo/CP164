@@ -1,0 +1,45 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Usama Mohiuddin\Documents\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\CP104 FOR FUNCTIONS REVIEW\com.python.pydev.analysis\v2_indexcache
+functions|1643342216513683200|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 FOR FUNCTIONS REVIEW\src\functions.py
+s02|1643136715760171000|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 FOR FUNCTIONS REVIEW\src\s02.py
+s01|1643135785377665700|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 FOR FUNCTIONS REVIEW\src\s01.py
+s04|1643153577944228700|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 FOR FUNCTIONS REVIEW\src\s04.py
+s03|1643136964005567800|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 FOR FUNCTIONS REVIEW\src\s03.py
+s06|1643341247190127700|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 FOR FUNCTIONS REVIEW\src\s06.py
+s05|1643341055429811800|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 FOR FUNCTIONS REVIEW\src\s05.py
+-- END DISKCACHE
+-- START DICTIONARY
+14
+6=functions
+14=s02
+12=s01
+10=s04
+8=s03
+1=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 FOR FUNCTIONS REVIEW\src\s05.py
+4=s06
+2=s05
+9=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 FOR FUNCTIONS REVIEW\src\s04.py
+3=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 FOR FUNCTIONS REVIEW\src\s06.py
+13=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 FOR FUNCTIONS REVIEW\src\s02.py
+5=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 FOR FUNCTIONS REVIEW\src\functions.py
+7=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 FOR FUNCTIONS REVIEW\src\s03.py
+11=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 FOR FUNCTIONS REVIEW\src\s01.py
+-- END DICTIONARY
+-- START TREE 1
+11
+cha|2|char!1^16#1*19@char!3^15#1*35@
+dra|2|draw_rectangle!5^109#5*50@draw_triangle!5^131#5*50@
+fin|1|finish!7^14#1*67@
+hei|2|height!1^14#1*19@height!3^14#1*35@
+inc|1|increment!7^15#1*67@
+n|1|n!9^14#1*83@
+num|2|num!11^14#1*99@num!13^14#1*115@
+sta|1|start!7^13#1*67@
+sum|4|sum_all!5^54#5*50@sum_even!5^13#5*50@sum_odd!5^33#5*50@sum_partial_harmonic!5^78#5*50@
+tot|4|total!9^16#1*83@total!7^17#1*67@total!11^16#1*99@total!13^16#1*115@
+wid|1|width!1^15#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

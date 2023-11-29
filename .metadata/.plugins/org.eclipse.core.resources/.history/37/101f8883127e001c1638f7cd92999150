@@ -1,0 +1,99 @@
+"""
+-------------------------------------------------------
+[program description]
+-------------------------------------------------------
+Author:  Usama Mohiuddin
+ID:            212090340
+Email:    mohi0340@mylaurier.ca
+__updated__ = "2022-01-25"
+-------------------------------------------------------
+"""
+
+
+def sum_even(num):
+    """
+    -------------------------------------------------------
+    Sums and returns the total of all even numbers from 2 to num (inclusive).
+    Use: total = sum_even(num)
+    -------------------------------------------------------
+    Parameters:
+        num - an integer (int > 0)
+    Returns:
+        total - sum of all even numbers from 2 to num (int)
+    ------------------------------------------------------
+    """
+    total = 0
+
+    for i in range(2, num + 1, 2):
+        total = total + i
+
+    return total
+
+
+def sum_odd(num):
+    """
+    -------------------------------------------------------
+    Sums and returns the total of all odd numbers from 1 to num (inclusive).
+    Use: total = sum_odd(num)
+    -------------------------------------------------------
+    Parameters:
+        num - an integer (int > 0)
+    Returns:
+        total - sum of all odd numbers from 1 to num (int)
+    ------------------------------------------------------
+    """
+
+    total = 0
+
+    for i in range(1, num + 1, 2):
+        total = total + i
+
+    return total
+
+
+def sum_all(start, finish, increment):
+    """
+    -------------------------------------------------------
+    Sums and returns all numbers from start to finish (inclusive)
+    by increment.
+    Use: total = sum_all(start, finish, increment)
+    -------------------------------------------------------
+    Parameters:
+        start - an integer (int > 0)
+        finish - an integer (int >= start)
+        increment - an integer (int > 0)
+    Returns:
+        total - sum of all numbers from start to
+            finish by increment (int)
+    ------------------------------------------------------
+    """
+
+    total = 0
+
+    for i in range(start, finish + 1, increment):
+        total = total + i
+    return total
+
+
+def sum_partial_harmonic(n):
+    """
+    -------------------------------------------------------
+    Sums and returns the total of a partial harmonic series.
+    This series is the sum of all terms 1/i, where i ranges
+    from 1 to n (inclusive)
+    i.e. 1 + 1/2 + 1/3 + ... + 1/n
+    Use: total = sum_partial_harmonic(n)
+    -------------------------------------------------------
+    Parameters:
+        n - an integer (int > 0)
+    Returns:
+        total - sum of partial harmonic series from 1 to n (int)
+    ------------------------------------------------------
+    """
+
+    total = 0
+
+    for i in range(1, n, 1):
+        for j in range(1, n, 1 / i):
+            total = total + i
+    return total

@@ -1,0 +1,33 @@
+Using python interpreter on Windows
+-----------------------------------
+
+search for command prompt
+->just a little program that we can write in python
+
+type "python" pr "python3"
+
+if it doesnt work its not on your windows path variable
+just search up online
+
+
+in python interpreter you can write any code
+
+print("hello World"
+Hello World
+
+num1 = 10
+num 2 = 90
+print(num1 + num2)
+
+100
+
+def say_hi(name):
+    print("hello" + name)
+    
+
+
+
+#this is only good for testing python code without 
+opening python program
+
+

@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+lineNumberRuler=true
+overviewRuler_migration=migrated_3.1
+printMargin=true
+printMarginAllowOverride=true
+printMarginColumn=200
+pydevOccurrenceIndicationColor=255,128,192
+removeSpacesAsTabs=true
+spacesForTabs=true
+spellingEnabled=true
+spellingEngine=org.eclipse.jdt.internal.ui.text.spelling.DefaultSpellingEngine

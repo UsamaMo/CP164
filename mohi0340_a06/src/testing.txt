@@ -1,0 +1,103 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Usama Mohiuddin
+ID:      212090340
+Email:   mohi0340@mylaurier.ca
+Version: 2022-03-05
+-------------------------------------------------------
+"""
+
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Queue Empty: 
+True
+
+Queue Full: 
+False
+
+Length of queue: 
+0
+
+Length of queue: 
+1
+
+Removed Node: 
+5
+
+First item in queue: 
+10
+
+Queue 2: 
+10
+55
+
+Target 1: 
+10
+
+Target 2: 
+55
+
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Queue is empty: 
+True
+
+Length of queue: 
+0
+
+Length of queue: 
+1
+
+Removed Node: 
+5
+
+First item in queue: 
+10
+
+Queue 2: 
+4
+10
+
+Target 1: 
+4
+
+Target 2: 
+10
+
+Target 1: 
+5
+10
+15
+20
+
+Target 2: 
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Queue is empty: 
+True
+
+Length of queue: 
+2
+
+Value at Front: 
+1
+
+Value at Rear: 
+2
+
+Value Removed: 
+1
+
+Value Removed: 
+2
+
+Values in queue: 
+4
+2
+3
+1

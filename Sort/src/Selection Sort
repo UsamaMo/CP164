@@ -1,0 +1,63 @@
+Algorithm
+1.divide array into unsorted and sorted sections
+    Initially entire array is unsorted
+2.at each step find (s)
+    s = smallest element in unsorted part of array
+    s is still larger than all values already in sorted array
+    
+
+#ARRAY BASED SELECTION
+def selection_sort(a):
+    n = len(a)
+
+    for i in range(n):
+        # Traverse entire array
+        m = i
+
+        for j in range(i + 1, n):
+            # Find index of minimum value in unsorted part of array
+
+            if a[m] > a[j]:
+                # Track smallest value so far
+                m = j
+
+        if m != i:
+            # swap elements only if necessary
+            swap(a, m, i)
+    return
+
+def swap(a, i, j):
+    temp = a[i]
+    a[i] = a[j]
+    a[j] = temp
+    return
+
+#LINKED BASED SELECTION
+def selection_sort(a):
+    # Split the list into the sorted (_front) and unsorted parts.
+    unsorted = a._front
+    a._front = None
+    # Go through each node in the unsorted list and find the max value node.
+    while unsorted is not None:
+        max_prev = None
+        max_node = unsorted
+        prev = unsorted
+        curr = max_node._next
+
+        while curr is not None:
+            if curr._value > max_node._value:
+                max_prev = prev
+                max_node = curr
+            prev = curr
+            curr = curr._next
+        # Remove the max node from the unsorted list.
+        if max_prev is None:
+            unsorted = max_node._next
+        else:
+            max_prev._next = max_node._next
+        # Move the next max node to the front of the sorted list.
+        if a._front is None:
+            a._rear = max_node
+        max_node._next = a._front
+        a._front = max_node
+    return

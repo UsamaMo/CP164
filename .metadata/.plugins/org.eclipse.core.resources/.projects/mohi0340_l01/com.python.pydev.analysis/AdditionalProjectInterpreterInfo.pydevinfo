@@ -1,0 +1,42 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Usama Mohiuddin\Documents\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\mohi0340_l01\com.python.pydev.analysis\v2_indexcache
+t01|1642314309014708700|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l01\src\t01.py
+t03|1642825219312779900|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l01\src\t03.py
+t02|1642320602757285100|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l01\src\t02.py
+t05|1642321751884110900|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l01\src\t05.py
+t04|1642324490532104200|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l01\src\t04.py
+t07|1642323753355307100|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l01\src\t07.py
+t06|1642322904710303900|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l01\src\t06.py
+-- END DISKCACHE
+-- START DICTIONARY
+14
+5=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l01\src\t03.py
+11=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l01\src\t06.py
+3=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l01\src\t04.py
+9=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l01\src\t05.py
+7=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l01\src\t07.py
+1=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l01\src\t02.py
+14=t01
+13=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_l01\src\t01.py
+6=t03
+2=t02
+10=t05
+4=t04
+8=t07
+12=t06
+-- END DICTIONARY
+-- START TREE 1
+8
+but|1|butter_chicken!1^14#1*19@
+f|3|f!3^17#1*35@f!1^16#1*19@f!5^14#1*51@
+fil|3|file_variable!7^16#1*67@file_variable!9^14#1*83@file_variable!11^18#1*99@
+foo|3|foods!9^16#1*83@foods!7^18#1*67@foods!11^20#1*99@
+lin|1|line!3^14#1*35@
+ori|1|origins!13^14#1*115@
+s|1|s!1^19#1*19@
+v|1|v!7^20#1*67@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

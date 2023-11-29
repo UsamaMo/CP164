@@ -1,0 +1,8 @@
+Two pieces of terminology
+
+
+stable- sorting algorithm is stable if it odes not change order of values 
+        with the same key
+
+in-place- sorting algorithm needs constant (O(1))
+

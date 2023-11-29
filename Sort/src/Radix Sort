@@ -1,0 +1,15 @@
+Counting sort is a linear time sorting algorithm that sorts in O(n+k) time when elements are in the range from 1 to k. However, if the elements are in the range from 1 to  then the counting sort takes  which is worse than comparison-based sorting algorithms. To sort such an array in linear time we can use radix sort.
+
+
+Algorithm
+The radix algorithm sort numbers based on their digits (i.e. by radix): it starts sorting from least significant digit to most significant digit. It applies to sorting  numbers in the range 0 to  for some . It consists of successive bucket-style sorts. In the base 10 version (there are others), imagine that there are 10 buckets labeled 0 to 9. Into any bucket  goes all numbers whose 1s digit is . Then concatenate the contents of the buckets in order and sort again. This time bucket  gets all numbers whose 10s digit is . You may keep making passes with the 100s digit, the 1000s digit, etc.
+
+Since the number of passes to make through the array of values to process is based upon the radix of the largest number in that array, you must find the largest number in the array and determine how many digits it contains. This can be done with a  calculation - this is left as an exercise for you.
+
+The figure shows the process of radix sort on the input array [68, 89, 45, 10, 20]:
+
+
+#IMPLEMENTATION
+The radix sort can be implemented for both array-based and linked data structures. It can work with data that has a well-defined radix, i.e. data like integers or strings that allow you to pick off individual digits or characters. Implementing it for complex data such as Food or Movie classes without identifiable radixes is problematic, if even possible. Implementing this sort may be left as an exercise to you.
+
+#O(n)

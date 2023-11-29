@@ -1,0 +1,80 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Usama Mohiuddin\Documents\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\CP104 REVIEW 2 FUNCTIONS\com.python.pydev.analysis\v2_indexcache
+s10|1643129829750113300|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\s10.py
+functions|1643130213764475200|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\functions.py
+s02|1643090999343006100|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\s02.py
+s01|1643090752651730200|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\s01.py
+s04|1643091618311296300|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\s04.py
+s03|1643091311638853100|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\s03.py
+s06|1643092902581860800|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\s06.py
+s05|1643092090222155900|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\s05.py
+s08|1643128816522274800|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\s08.py
+s07|1643128578100456500|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\s07.py
+s09|1643129252448003200|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\s09.py
+-- END DISKCACHE
+-- START DICTIONARY
+20
+4=functions
+11=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\s04.py
+9=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\s03.py
+5=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\s06.py
+1=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\s01.py
+17=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\s02.py
+3=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\functions.py
+7=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\s09.py
+19=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\s10.py
+15=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\s08.py
+13=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 REVIEW 2 FUNCTIONS\src\s07.py
+20=s10
+18=s02
+2=s01
+12=s04
+10=s03
+6=s06
+16=s08
+14=s07
+8=s09
+-- END DICTIONARY
+-- START TREE 1
+36
+acr|2|acres!1^16#1*19@ACRE!3^12#1*35@
+bir|1|births!5^15#1*51@
+com|4|computer_costs!3^195#5*34@computers_bought!7^15#1*67@computer_cost!7^14#1*67@commission_percent!7^16#1*67@
+con|1|convert_feet_acres!3^17#5*34@
+dat|2|date_extraction!3^54#5*34@date_number!9^14#1*83@
+dea|1|deaths!5^16#1*51@
+den|2|denom1!11^13#1*99@denom2!11^15#1*99@
+dia|2|diameter!3^143#5*34@diam!13^16#1*115@
+dim|1|dimes!15^15#1*131@
+imm|1|immigrants!5^17#1*51@
+law|1|lawn_mowing!3^35#5*34@
+len|1|length!17^15#1*147@
+loo|1|loonies!15^17#1*131@
+mag|1|magic_date!3^246#5*34@
+mat|1|math_quiz!3^101#5*34@
+mul|1|multiply_fractions!3^76#5*34@
+new|1|new_size!5^20#1*51@
+nic|1|nickels!15^14#1*131@
+num|2|num2!11^14#1*99@num1!11^12#1*99@
+pop|1|population!3^119#5*34@
+qua|1|quarters!15^16#1*131@
+rad|1|radius!13^14#1*115@
+siz|1|size!5^14#1*51@
+slo|1|slope!3^219#5*34@
+slp|1|slp!19^19#1*163@
+spe|1|speed!17^16#1*147@
+squ|1|square_footage!1^14#1*19@
+tim|1|time!17^18#1*147@
+too|1|toonies!15^18#1*131@
+tot|2|total!15^21#1*131@total_change!3^160#5*34@
+wid|1|width!17^14#1*147@
+x1|1|x1!19^14#1*163@
+x2|1|x2!19^16#1*163@
+y1|1|y1!19^15#1*163@
+y2|1|y2!19^17#1*163@
+yea|1|years!5^18#1*51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

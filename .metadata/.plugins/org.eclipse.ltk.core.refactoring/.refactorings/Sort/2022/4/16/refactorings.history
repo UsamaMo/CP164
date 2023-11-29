@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Sort/src/General&apos; to &apos;using lists of functions&apos;" description="Rename resource &apos;General&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/General" name="using lists of functions" stamp="1649972938945" updateReferences="true"/>
+</session>

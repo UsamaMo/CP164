@@ -1,0 +1,36 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Usama Mohiuddin\Documents\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\CP104 LISTS REVIEW\com.python.pydev.analysis\v2_indexcache
+functions|1644452190496398600|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 LISTS REVIEW\src\functions.py
+t01|1644365866050312300|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 LISTS REVIEW\src\t01.py
+t03|1644452189963822400|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 LISTS REVIEW\src\t03.py
+t02|1644450506573771900|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 LISTS REVIEW\src\t02.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+5=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 LISTS REVIEW\src\t02.py
+7=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 LISTS REVIEW\src\t03.py
+1=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 LISTS REVIEW\src\t01.py
+2=t01
+4=functions
+8=t03
+6=t02
+3=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 LISTS REVIEW\src\functions.py
+-- END DICTIONARY
+-- START TREE 1
+11
+d|1|d!1^14#1*19@
+gen|1|generate_integer_list!3^35#5*34@
+get|1|get_weekday_name!3^15#5*34@
+hig|1|high!5^16#1*51@
+lin|1|linear_search!3^94#5*34@
+lis|1|list_stats!3^57#5*34@
+low|1|low!5^15#1*51@
+min|1|min_search!3^109#5*34@
+n|1|n!5^14#1*51@
+nam|1|name!1^16#1*19@
+val|2|values!5^18#1*51@values!7^14#1*67@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,80 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Usama Mohiuddin\Documents\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\CP104 IF FUNCTIONS\com.python.pydev.analysis\v2_indexcache
+s11|1643135608774923200|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s11.py
+s10|1643135429168149900|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s10.py
+functions|1643153526105699000|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\functions.py
+s02|1643130639544318100|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s02.py
+s01|1643130337778590800|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s01.py
+s04|1643131285851714800|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s04.py
+s03|1643130929799615600|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s03.py
+s06|1643132088151601000|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s06.py
+s05|1643131802008058100|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s05.py
+s08|1643133458600216400|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s08.py
+s07|1643133109141455000|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s07.py
+s09|1643153525493674200|C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s09.py
+-- END DISKCACHE
+-- START DICTIONARY
+24
+4=functions
+1=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s08.py
+13=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s09.py
+9=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s07.py
+11=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s06.py
+5=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s03.py
+7=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s01.py
+15=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s02.py
+21=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s04.py
+23=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s05.py
+18=s11
+20=s10
+16=s02
+8=s01
+22=s04
+6=s03
+12=s06
+17=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s11.py
+24=s05
+2=s08
+10=s07
+3=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\functions.py
+14=s09
+19=C:\Users\Usama Mohiuddin\Documents\CP164\CP104 IF FUNCTIONS\src\s10.py
+-- END DICTIONARY
+-- START TREE 1
+31
+cat|1|category!1^16#1*19@
+clo|1|closest!3^96#5*34@
+cos|1|cost!5^14#1*51@
+day|1|day!7^13#1*67@
+fas|1|fast_food!3^286#5*34@
+fin|1|final_cost!5^17#1*51@
+fri|1|friends!5^15#1*51@
+get|2|get_pay!3^174#5*34@get_weight!3^37#5*34@
+gym|1|gym_cost!3^65#5*34@
+hou|2|hours_worked!9^15#1*83@hourly_rate!9^14#1*83@
+i|1|i!11^16#1*99@
+is_|2|is_leap!3^120#5*34@is_divisible!3^151#5*34@
+j|1|j!11^17#1*99@
+loa|1|loan!3^261#5*34@
+loc|1|location!13^18#1*115@
+mag|2|magic!7^17#1*67@magic_date!3^13#5*34@
+mas|1|mass!15^13#1*131@
+mon|1|month!7^14#1*67@
+n|1|n!11^15#1*99@
+net|1|net_payment!9^17#1*83@
+pri|1|price!17^14#1*147@
+qua|2|qualified!19^14#1*163@quadrant!3^233#5*34@
+res|3|result!11^19#1*99@result!21^18#1*179@result!23^16#1*195@
+spe|1|speed!1^14#1*19@
+tar|1|target!21^14#1*179@
+v1|1|v1!21^15#1*179@
+v2|1|v2!21^16#1*179@
+win|1|wind_speed!3^205#5*34@
+x|1|x!13^14#1*115@
+y|1|y!13^15#1*115@
+yea|2|year!23^14#1*195@year!7^15#1*67@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

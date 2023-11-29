@@ -1,0 +1,45 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Usama Mohiuddin\Documents\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\mohi0340_a08\com.python.pydev.analysis\v2_indexcache
+Letter|1647687833000803100|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a08\src\Letter.py
+functions|1647687833514979800|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a08\src\functions.py
+t01|1647692007001412400|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a08\src\t01.py
+t03|1647691922544259100|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a08\src\t03.py
+t02|1647691971105288600|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a08\src\t02.py
+-- END DISKCACHE
+-- START DICTIONARY
+11
+7=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a08\src\functions.py
+10=Letter
+11=Letter.__init__
+2=t01
+8=functions
+6=t03
+4=t02
+5=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a08\src\t03.py
+3=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a08\src\t02.py
+1=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a08\src\t01.py
+9=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a08\src\Letter.py
+-- END DICTIONARY
+-- START TREE 1
+8
+arr|1|arr!1^16#1*19@
+bst|6|bst2!1^28#1*19@bst2!3^22#1*35@bst!5^19#1*51@bst!1^14#1*19@bst3!3^23#1*35@bst1!3^21#1*35@
+com|1|comparison_total!7^47#5*66@
+dat|4|DATA3!3^19#1*35@DATA1!3^17#1*35@DATA2!3^18#1*35@DATA!5^17#1*51@
+do_|1|do_comparisons!7^15#5*66@
+fil|2|file!3^37#1*35@file!5^25#1*51@
+let|4|Letter!9^13#7*81@letter!3^26#5*35@letter!5^22#5*51@letter_table!7^66#5*66@
+tot|1|total!3^41#1*35@
+-- END TREE
+-- START TREE 2
+8
+__e|1|__eq__!10&9^46#9*82@
+__g|2|__gt__!10&9^79#9*82@__ge__!10&9^112#9*82@
+__i|1|__init__!10&9^15#9*82@
+__l|2|__lt__!10&9^63#9*82@__le__!10&9^95#9*82@
+__s|1|__str__!10&9^33#9*82@
+com|1|comparisons!11&9^31#9*83@
+cou|1|count!11&9^30#9*83@
+let|1|letter!11&9^29#9*83@
+-- END TREE

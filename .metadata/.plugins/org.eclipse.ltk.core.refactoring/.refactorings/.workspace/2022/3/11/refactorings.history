@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;mohi0340_data_structures/Sorted_List_linked&apos;" deleteContents="false" description="Delete resource &apos;mohi0340_data_structures/Sorted_List_linked&apos;" element1="/mohi0340_data_structures/Sorted_List_linked" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1647088767299"/>
+</session>

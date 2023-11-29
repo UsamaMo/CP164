@@ -1,0 +1,23 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Usama Mohiuddin\Documents\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\mohi0340_a06\com.python.pydev.analysis\v2_indexcache
+t01|1646473044860959500|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a06\src\t01.py
+t03|1646472861458492800|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a06\src\t03.py
+t02|1646473173686388400|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a06\src\t02.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+1=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a06\src\t03.py
+5=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a06\src\t01.py
+3=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a06\src\t02.py
+6=t01
+2=t03
+4=t02
+-- END DICTIONARY
+-- START TREE 1
+1
+que|7|queue!1^14#1*19@queue1!3^39#1*35@queue2!5^47#1*51@queue!3^14#1*35@queue!5^14#1*51@queue2!3^43#1*35@queue1!5^43#1*51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

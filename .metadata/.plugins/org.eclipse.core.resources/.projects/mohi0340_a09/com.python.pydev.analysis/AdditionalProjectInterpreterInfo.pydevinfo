@@ -1,0 +1,47 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Usama Mohiuddin\Documents\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\mohi0340_a09\com.python.pydev.analysis\v2_indexcache
+Word|1648287010610449700|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a09\src\Word.py
+functions|1648287031783561900|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a09\src\functions.py
+t01|1648290458240819900|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a09\src\t01.py
+t03|1648290507674205700|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a09\src\t03.py
+t02|1648290507274670500|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a09\src\t02.py
+t04|1648291176407947000|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a09\src\t04.py
+-- END DISKCACHE
+-- START DICTIONARY
+13
+12=Word
+4=functions
+8=t01
+10=t03
+11=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a09\src\Word.py
+6=t02
+9=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a09\src\t03.py
+2=t04
+5=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a09\src\t02.py
+13=Word.__init__
+1=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a09\src\t04.py
+7=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a09\src\t01.py
+3=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_a09\src\functions.py
+-- END DICTIONARY
+-- START TREE 1
+7
+arr|1|arr!1^16#1*19@
+bst|1|bst!1^14#1*19@
+com|1|comparison_total!3^40#5*34@
+fil|3|file!5^17#1*51@file!7^17#1*67@file!9^17#1*83@
+hsh|3|hsh!9^15#1*83@hsh!7^15#1*67@hsh!5^15#1*51@
+ins|1|insert_words!3^15#5*34@
+wor|1|Word!11^13#7*97@
+-- END TREE
+-- START TREE 2
+8
+__e|1|__eq__!12&11^45#9*98@
+__g|2|__ge__!12&11^114#9*98@__gt__!12&11^79#9*98@
+__h|1|__hash__!12&11^132#9*98@
+__i|1|__init__!12&11^15#9*98@
+__l|2|__lt__!12&11^62#9*98@__le__!12&11^96#9*98@
+__s|1|__str__!12&11^32#9*98@
+com|1|comparisons!13&11^30#9*99@
+wor|1|word!13&11^29#9*99@
+-- END TREE

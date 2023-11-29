@@ -1,0 +1,34 @@
+def apply(self, func):
+    """
+    -------------------------------------------------------
+    Applies an external function to every value in list.
+    Use: lst.apply(func)
+    -------------------------------------------------------
+    Parameters:
+      func - a function that takes a single value as a parameter
+          and returns a value (function)
+    Returns:
+        None
+    -------------------------------------------------------
+    """
+    for i in range(len(self._values)):
+        self._values[i] = func(self._values[i])
+    return
+    
+    
+#defining an array based method for sort, method apply 
+is used to transverse a list and applies a function to every element in the list
+
+#simple function to every element of list a
+
+def double(x):
+    return x * 2
+
+
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9 would contain values:
+0, 2, 4, 6, 8, 10, 12, 14, 16, 18 after apply is executed
+
+
+...
+# Apply 'double' to every element of the List a.
+a.apply(double)

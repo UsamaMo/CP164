@@ -1,0 +1,113 @@
+"""
+-------------------------------------------------------
+Lab 4 Testing
+-------------------------------------------------------
+Author:  Usama Mohiuddin
+ID:      212090340
+Email:   mohi0340@mylaurier.ca
+Version: 2022-02-06
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Name:       Teriyaki
+Origin:     Japanese
+Vegetarian: None
+Calories:   None
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+50
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Append: 
+100
+
+Insert:
+200
+100
+
+Remove: 
+200
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+3 is contained in list
+
+Index List:
+1
+
+Find List:
+2
+
+List Count: 
+1
+
+List Min:
+0
+
+List Max:
+3
+
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+350
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+Printing LList: 
+1
+2
+3
+4
+5
+-------------------------------------------------------
+t07
+-------------------------------------------------------
+None
+
+None
+
+0
+
+List Remove:
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+List Insert:
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+List Empty:
+None
+
+List Count:
+1
+
+List Max:
+Name:       Vegetables with Cashew Nuts
+Origin:     Chinese
+Vegetarian: True
+Calories:   143
+
+List Min:
+Name:       BBQ Pork
+Origin:     Chinese
+Vegetarian: False
+Calories:   920
+
+List Index:
+0
+
+List Find:
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272

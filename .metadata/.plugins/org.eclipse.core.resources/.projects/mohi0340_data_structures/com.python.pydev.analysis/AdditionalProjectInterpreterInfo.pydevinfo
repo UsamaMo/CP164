@@ -1,0 +1,277 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Usama Mohiuddin\Documents\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\mohi0340_data_structures\com.python.pydev.analysis\v2_indexcache
+Priority_Queue_linked|1649960042436833100|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Priority_Queue_linked.py
+Sorts_List_linked|1648859228847463400|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Sorts_List_linked.py
+Priority_Queue_array|1644884025313093200|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Priority_Queue_array.py
+Sorted_List_array|1644881491095686900|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Sorted_List_array.py
+Stack_linked|1662658283381192800|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Stack_linked.py
+Sorted_List_linked|1649786876382210500|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Sorted_List_linked.py
+utilities|1644873682120206800|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\utilities.py
+BST_linked|1649968636113941100|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\BST_linked.py
+Deque_array|1649278487691540900|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Deque_array.py
+Queue_linked|1649980496376678800|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Queue_linked.py
+Food_utilities|1642833540442134400|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Food_utilities.py
+Hash_Set_sorted|1648289989555550300|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Hash_Set_sorted.py
+Stack_array|1644873680948018000|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Stack_array.py
+Deque_linked|1662658282665940600|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Deque_linked.py
+Hash_Set_BST|1648858925516724800|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Hash_Set_BST.py
+Queue_circular|1644873681470954000|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Queue_circular.py
+Hash_Set_array|1648289989142105200|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Hash_Set_array.py
+List_array|1644884026232252800|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\List_array.py
+Sorts_array|1648859420141743400|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Sorts_array.py
+List_linked|1649960041506974600|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\List_linked.py
+Sorts_Deque_linked|1648859419590420900|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Sorts_Deque_linked.py
+Food|1642817355902711200|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Food.py
+Queue_array|1644873680388204800|C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Queue_array.py
+-- END DISKCACHE
+-- START DICTIONARY
+119
+32=Priority_Queue_array
+47=Hash_Set
+25=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Hash_Set_sorted.py
+33=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Queue_array.py
+35=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Queue_circular.py
+74=Priority_Queue.insert
+93=List._swap
+16=utilities
+2=BST_linked
+80=Deque.remove_front
+98=Sorted_List.insert
+102=Queue._move_front
+4=Deque_linked
+24=Hash_Set_BST
+11=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Sorted_List_linked.py
+82=Deque._swap
+8=Priority_Queue_linked
+40=Sorts_List_linked
+50=BST
+12=Sorted_List_linked
+15=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\utilities.py
+119=Food.__init__
+54=_List_Node
+101=Sorted_List.pop
+99=Sorted_List.remove
+58=_Stack_Node
+7=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Priority_Queue_linked.py
+6=List_linked
+91=List.reverse
+23=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Hash_Set_BST.py
+39=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Sorts_List_linked.py
+71=Deque.__init__
+114=Sorted_List.clean
+104=_BST_Node._update_height
+42=Sorted_List_array
+95=Priority_Queue._move_front_to_rear
+73=Sorted_List.__init__
+17=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Food_utilities.py
+63=Hash_Set.__init__
+21=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Food.py
+45=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Stack_array.py
+59=_SL_Node
+92=List._append_list
+13=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Stack_linked.py
+72=Priority_Queue.__init__
+85=List.prepend
+97=Queue.remove
+87=List._append
+55=Queue
+22=Food
+69=List.clear
+116=Stack.push
+111=List.clean
+60=_Queue_Node
+43=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Sorts_array.py
+94=Priority_Queue.remove
+51=Deque
+89=List.remove_front
+26=Hash_Set_sorted
+113=Queue.split_alt
+65=Queue.__init__
+83=List.insert
+90=List._move_front_to_rear
+53=_PQ_Node
+38=Sorts_Deque_linked
+66=List.__init__
+110=_Deque_Node.__init__
+14=Stack_linked
+108=_List_Node.__init__
+68=List.split
+27=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Hash_Set_array.py
+20=Deque_array
+18=Food_utilities
+31=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Priority_Queue_array.py
+46=Stack_array
+36=Queue_circular
+117=Stack.pop
+57=_Deque_Node
+30=List_array
+44=Sorts_array
+49=List
+52=Priority_Queue
+77=Priority_Queue.split_alt
+79=Deque.insert_rear
+109=_Queue_Node.__init__
+107=_SL_Node.__init__
+84=List._move_front_to_front
+75=Priority_Queue._set_first
+9=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Queue_linked.py
+10=Queue_linked
+56=Stack
+62=Sorts
+28=Hash_Set_array
+118=Stack._move_top
+37=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Sorts_Deque_linked.py
+48=Sorted_List
+67=List.remove_many
+3=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Deque_linked.py
+88=List.remove
+41=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Sorted_List_array.py
+61=_BST_Node
+29=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\List_array.py
+34=Queue_array
+86=List.pop
+1=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\BST_linked.py
+64=Hash_Set._rehash
+100=Sorted_List.remove_front
+115=Stack.__init__
+5=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\List_linked.py
+106=_Stack_Node.__init__
+76=Priority_Queue.split_key
+81=Deque.remove_rear
+105=_PQ_Node.__init__
+78=Deque.insert_front
+96=Queue.insert
+70=BST.__init__
+112=Stack.reverse
+19=C:\Users\Usama Mohiuddin\Documents\CP164\mohi0340_data_structures\src\Deque_array.py
+103=_BST_Node.__init__
+-- END DICTIONARY
+-- START TREE 1
+25
+_bs|1|_BST_Node!1^16#7*17@
+_de|1|_Deque_Node!3^15#7*33@
+_li|1|_List_Node!5^18#7*49@
+_pq|1|_PQ_Node!7^15#7*65@
+_qu|1|_Queue_Node!9^15#7*81@
+_sl|1|_SL_Node!11^16#7*97@
+_st|1|_Stack_Node!13^15#7*113@
+arr|4|array_to_pq!15^205#5*130@array_to_queue!15^114#5*130@array_to_list!15^303#5*130@array_to_stack!15^18#5*130@
+ave|1|average_calories!17^168#5*146@
+bst|1|BST!1^83#7*17@
+by_|1|by_origin!17^143#5*146@
+cal|1|calories_by_origin!17^194#5*146@
+deq|2|Deque!19^15#7*161@Deque!3^38#7*33@
+foo|3|food_search!17^246#5*146@Food!21^13#7*177@food_table!17^215#5*146@
+get|2|get_vegetarian!17^120#5*146@get_food!17^16#5*146@
+has|3|Hash_Set!23^19#7*193@Hash_Set!25^18#7*209@Hash_Set!27^23#7*225@
+lis|4|List!5^41#7*49@list_test!15^357#5*130@list_to_array!15^331#5*130@List!29^15#7*241@
+pq_|1|pq_to_array!15^233#5*130@
+pri|3|Priority_Queue!31^18#7*257@priority_queue_test!15^260#5*130@Priority_Queue!7^37#7*65@
+que|5|Queue!9^37#7*81@Queue!33^15#7*273@queue_to_array!15^140#5*130@queue_test!15^165#5*130@Queue!35^26#7*289@
+rea|2|read_food!17^42#5*146@read_foods!17^64#5*146@
+sep|3|SEP!27^20#1*227@SEP!25^15#1*211@SEP!23^16#1*195@
+sor|5|Sorts!37^16#7*305@Sorts!39^19#7*321@Sorted_List!41^17#7*337@Sorted_List!11^37#7*97@Sorts!43^17#7*353@
+sta|4|Stack!45^15#7*369@stack_to_array!15^41#5*130@stack_test!15^75#5*130@Stack!13^41#7*113@
+wri|1|write_foods!17^96#5*146@
+-- END TREE
+-- START TREE 2
+97
+__c|8|__contains__!47&23^84#9*194@__contains__!48&11^309#9*98@__contains__!47&25^83#9*210@__contains__!49&29^85#9*242@__contains__!50&1^325#9*18@__contains__!49&5^529#9*50@__contains__!47&27^88#9*226@__contains__!48&41^31#9*338@
+__e|1|__eq__!22&21^89#9*178@
+__g|4|__getitem__!49&29^29#9*242@__getitem__!48&11^284#9*98@__getitem__!49&5^454#9*50@__getitem__!48&41^49#9*338@
+__h|1|__hash__!22&21^167#9*178@
+__i|42|__iter__!48&11^804#9*98@__init__!51&19^17#9*162@__init__!52&31^20#9*258@__iter__!47&27^250#9*226@__init__!48&41^19#9*338@__init__!53&7^17#9*66@__init__!52&7^39#9*66@__iter__!47&25^235#9*210@__iter__!52&7^282#9*66@__iter__!52&31^162#9*258@__iter__!51&3^267#9*34@__init__!54&5^20#9*50@__init__!49&5^43#9*50@__iter__!47&23^236#9*194@__init__!49&29^17#9*242@__init__!55&33^17#9*274@__init__!22&21^46#9*178@__init__!47&23^27#9*194@__iter__!55&33^170#9*274@__iter__!56&13^254#9*114@__iter__!49&29^810#9*242@__iter__!49&5^1236#9*50@__init__!57&3^17#9*34@__init__!51&3^40#9*34@__init__!47&25^26#9*210@__iter__!48&41^736#9*338@__init__!56&45^17#9*370@__iter__!56&45^104#9*370@__init__!47&27^31#9*226@__iter__!55&35^225#9*290@__init__!58&13^17#9*114@__init__!56&13^43#9*114@__init__!59&11^18#9*98@__init__!48&11^39#9*98@__iter__!50&1^1096#9*18@__init__!55&35^36#9*290@__init__!60&9^17#9*82@__init__!55&9^39#9*82@__iter__!55&9^360#9*82@__init__!61&1^18#9*18@__init__!50&1^85#9*18@__iter__!51&19^205#9*162@
+__l|17|__len__!48&11^66#9*98@__len__!55&33^61#9*274@__len__!49&5^73#9*50@__len__!49&29^49#9*242@__len__!51&19^30#9*162@__le__!22&21^121#9*178@__len__!50&1^115#9*18@__len__!47&23^47#9*194@__len__!51&3^72#9*34@__len__!47&25^46#9*210@__len__!52&7^66#9*66@__len__!55&35^94#9*290@__len__!55&9^84#9*82@__len__!47&27^51#9*226@__len__!52&31^48#9*258@__lt__!22&21^105#9*178@__len__!48&41^68#9*338@
+__s|4|__setitem__!49&5^495#9*50@__str__!61&1^73#9*18@__str__!22&21^71#9*178@__setitem__!49&29^63#9*242@
+_ap|4|_append_queue!55&9^215#9*82@_append_list!49&5^1191#9*50@_append!49&5^1166#9*50@_append_queue!52&7^231#9*66@
+_bi|3|_binary_search!48&41^81#9*338@_bin_srch_i!62&43^566#9*354@_bin_srch_r!62&43^538#9*354@
+_bu|1|_build_heap!62&43^374#9*354@
+_ca|7|_capacity!63&23^39#9*195@_capacity!64&23^185#9*195@_capacity!65&35^52#9*291@_capacity!63&27^43#9*227@_capacity!64&27^196#9*227@_capacity!63&25^38#9*211@_capacity!64&25^184#9*211@
+_co|13|_count!65&35^65#9*291@_count!63&23^41#9*195@_count!66&5^58#9*51@_count!67&5^344#13*51@_count!68&5^1035#9*51@_count!69&5^1233#9*51@_count!63&27^45#9*227@_count!70&1^100#9*19@_count!71&3^56#9*35@_count!65&9^55#9*83@_count!72&7^51#9*67@_count!73&11^51#9*99@_count!63&25^40#9*211@
+_de|1|_delete_node_left!50&1^302#9*18@
+_fi|8|_first!72&31^33#9*259@_first!74&31^81#13*259@_first!75&31^148#13*259@_first!76&31^217#9*259@_first!77&31^261#9*259@_find_slot!47&25^70#9*210@_find_slot!47&23^71#9*194@_find_slot!47&27^75#9*226@
+_fr|37|_front!71&3^51#9*35@_front!78&3^102#13*35@_front!79&3^124#13*35@_front!80&3^147#13*35@_front!81&3^169#13*35@_front!82&3^227#13*35@_front!83&5^153#13*51@_front!84&5^1091#9*51@_front!66&5^54#9*51@_front!85&5^105#9*51@_front!69&5^1231#9*51@_front!86&5^783#13*51@_front!68&5^1033#9*51@_front!87&5^1183#13*51@_front!88&5^263#17*51@_front!89&5^303#9*51@_front!90&5^1127#13*51@_front!67&5^332#13*51@_front!91&5^684#13*51@_front!92&5^1209#13*51@_front!93&5^817#17*51@_front!72&7^49#9*67@_front!74&7^94#13*67@_front!94&7^130#9*67@_front!95&7^267#13*67@_front!65&35^60#9*291@_front!96&35^131#13*291@_front!97&35^192#13*291@_front!73&11^49#9*99@_front!98&11^96#13*99@_front!99&11^166#17*99@_front!100&11^192#9*99@_front!101&11^451#13*99@_front!65&9^51#9*83@_front!96&9^112#13*83@_front!97&9^139#13*83@_front!102&9^188#13*83@
+_he|3|_height!103&1^38#9*19@_height!104&1^70#9*19@_height_aux!50&1^357#9*18@
+_in|2|_insert_aux!50&1^146#9*18@_inorder_aux!50&1^978#9*18@
+_is|8|_is_valid_index!49&5^428#9*50@_is_identical_aux!50&1^406#9*18@_is_valid_aux!50&1^898#9*18@_is_valid_index!48&41^133#9*338@_is_balanced_aux!50&1^801#9*18@_is_valid_index!49&29^104#9*242@_is_valid_index!48&11^267#9*98@_is_valid_index!51&19^44#9*162@
+_le|2|_leaf_count_aux!50&1^596#9*18@_left!103&1^34#9*19@
+_li|4|_linear_search_r!48&11^672#9*98@_linear_search!49&29^126#9*242@_linear_search!48&11^116#9*98@_linear_search!49&5^183#9*50@
+_lo|3|_LOAD_FACTOR!47&23^25#5*195@_LOAD_FACTOR!47&27^29#5*227@_LOAD_FACTOR!47&25^24#5*211@
+_me|4|_merge!62&39^255#9*322@_merge!62&43^219#9*354@_merge_split!62&39^230#9*322@_merge_sort_aux!62&43^194#9*354@
+_mo|5|_move_front_to_rear!49&5^1099#9*50@_move_top!56&13^154#9*114@_move_front_to_front!49&5^1063#9*50@_move_front_to_rear!52&7^250#9*66@_move_front!55&9^169#9*82@
+_ne|6|_next!105&7^34#9*67@_next!106&13^36#9*115@_next!107&11^33#9*99@_next!108&5^38#9*51@_next!109&9^34#9*83@_next!110&3^35#9*35@
+_no|2|_node_counts_aux!50&1^716#9*18@_node_height!50&1^831#9*18@
+_on|1|_one_child_count_aux!50&1^672#9*18@
+_pa|3|_parent_r_aux!50&1^488#9*18@_partition!62&39^287#9*322@_partition!62&43^309#9*354@
+_po|1|_postorder_aux!50&1^1042#9*18@
+_pr|2|_prev!110&3^34#9*35@_preorder_aux!50&1^1010#9*18@
+_qu|1|_quick_sort_aux!62&43^284#9*354@
+_re|47|_remove_aux!50&1^256#9*18@_rear!65&35^63#9*291@_rear!96&35^137#13*291@_rear!97&35^186#13*291@_rehash!47&23^174#9*194@_rear!66&5^56#9*51@_rear!85&5^103#13*51@_rear!83&5^151#17*51@_rear!86&5^787#17*51@_rear!90&5^1132#9*51@_rear!68&5^1034#9*51@_rear!88&5^270#21*51@_rear!87&5^1187#9*51@_rear!93&5^837#17*51@_rear!91&5^687#9*51@_rear!92&5^1213#9*51@_rear!84&5^1095#13*51@_rear!111&5^731#13*51@_rear!69&5^1232#9*51@_rear!89&5^311#13*51@_rear!67&5^342#13*51@_rear!112&13^136#9*115@_rear!65&9^53#9*83@_rear!96&9^113#13*83@_rear!97&9^141#13*83@_rear!102&9^190#13*83@_rear!113&9^303#13*83@_rear!72&7^50#9*67@_rear!74&7^95#13*67@_rear!94&7^129#13*67@_rear!77&7^171#13*67@_rear!76&7^199#13*67@_rear!95&7^268#13*67@_reheap!62&43^396#9*354@_rear!71&3^53#9*35@_rear!78&3^103#13*35@_rear!79&3^125#13*35@_rear!80&3^148#13*35@_rear!81&3^170#13*35@_rear!82&3^231#13*35@_rehash!47&25^173#9*210@_rear!73&11^50#9*99@_rear!98&11^97#13*99@_rear!99&11^168#17*99@_rear!100&11^191#13*99@_rear!114&11^398#21*99@_rehash!47&27^184#9*226@
+_ri|1|_right!103&1^36#9*19@
+_ro|1|_root!70&1^97#9*19@
+_se|1|_set_first!52&31^130#9*258@
+_sh|1|_shift!62&43^651#9*354@
+_sw|5|_swap!49&5^797#9*50@_swap!51&19^70#9*162@_swap!62&43^628#9*354@_swap!51&3^205#9*34@_swap!49&29^160#9*242@
+_ta|6|_table!63&25^39#9*211@_table!64&25^192#9*211@_table!63&23^40#9*195@_table!64&23^193#9*195@_table!63&27^44#9*227@_table!64&27^204#9*227@
+_to|5|_top!115&13^55#9*115@_top!116&13^83#9*115@_top!117&13^103#9*115@_top!112&13^140#9*115@_top!118&13^180#9*115@
+_tw|1|_two_child_aux!50&1^633#9*18@
+_up|1|_update_height!61&1^40#9*18@
+_va|15|_value!105&7^32#9*67@_value!106&13^34#9*115@_value!109&9^32#9*83@_values!71&19^28#9*163@_value!108&5^35#9*51@_values!66&29^27#9*243@_value!107&11^32#9*99@_value!103&1^32#9*19@_values!73&41^29#9*339@_values!72&31^31#9*259@_values!65&35^57#9*291@_values!65&33^31#9*275@_values!115&45^28#9*371@_values!112&45^177#9*371@_value!110&3^32#9*35@
+app|3|apply!49&29^210#9*242@append!49&5^109#9*50@append!49&29^188#9*242@
+ave|1|average_depth!50&1^865#9*18@
+bin|1|binary_insert_sort!62&43^507#9*354@
+bst|1|bst_sort!62&43^125#9*354@
+bub|2|bubble_sort!62&39^77#9*322@bubble_sort!62&43^88#9*354@
+cal|1|calories!119&21^68#9*179@
+cle|6|clean!48&41^156#9*338@clean!49&5^690#9*50@clean!49&29^231#9*242@clear!49&5^1221#9*50@clean!48&11^377#9*98@clean_r!48&11^693#9*98@
+coc|1|cocktail_sort!62&43^462#9*354@
+com|13|combine!48&11^649#9*98@combine!56&13^184#9*114@combine!49&29^274#9*242@combine!49&5^1136#9*50@combine!48&41^179#9*338@combine_r!48&11^764#9*98@combine!52&31^269#9*258@combine!56&45^120#9*370@combine!52&7^202#9*66@comb_sort!62&39^124#9*322@comb_sort!62&43^427#9*354@combine!55&33^115#9*274@combine!55&9^239#9*82@
+cop|4|copy!49&29^300#9*242@copy!48&11^633#9*98@copy!48&41^213#9*338@copy_r!48&11^748#9*98@
+cou|5|count!48&41^237#9*338@count!49&5^624#9*50@count!48&11^354#9*98@count!49&29^314#9*242@count!50&1^1083#9*18@
+deb|3|debug!47&25^211#9*210@debug!47&27^224#9*226@debug!47&23^212#9*194@
+def|1|DEFAULT_CAPACITY!55&35^33#5*291@
+fin|7|find!49&5^364#9*50@find!47&25^133#9*210@find!47&23^134#9*194@find!48&41^280#9*338@find!47&27^139#9*226@find!49&29^344#9*242@find!48&11^215#9*98@
+gno|2|gnome_sort!62&37^31#9*306@gnome_sort!62&43^702#9*354@
+hea|1|heap_sort!62&43^350#9*354@
+hei|1|height!50&1^341#9*18@
+ide|1|identical_r!48&11^709#9*98@
+ind|4|index!49&5^408#9*50@index!48&41^301#9*338@index!49&29^370#9*242@index!48&11^250#9*98@
+ino|1|inorder!50&1^961#9*18@
+ins|19|insert_rear!51&19^112#9*162@insert_front!51&3^87#9*34@insertion_sort!62&39^173#9*322@insert!49&29^388#9*242@insert!48&11^79#9*98@insert!47&25^98#9*210@insert!52&7^79#9*66@insert!48&41^316#9*338@insert!47&27^103#9*226@insertion_sort!62&43^32#9*354@insert!49&5^125#9*50@insert_rear!51&3^110#9*34@insert_front!51&19^95#9*162@insert!52&31^61#9*258@insert!47&23^99#9*194@insert!55&33^75#9*274@insert!55&35^108#9*290@insert!55&9^97#9*82@insert!50&1^128#9*18@
+int|5|intersection!49&29^412#9*242@intersection!48&11^458#9*98@intersection!49&5^919#9*50@intersection_r!48&11^727#9*98@intersection!48&41^358#9*338@
+is_|33|is_empty!51&19^128#9*162@is_identical!47&23^196#9*194@is_full!55&9^71#9*82@is_identical!47&25^195#9*210@is_vegetarian!119&21^67#9*179@is_empty!48&11^53#9*98@is_identical!47&27^208#9*226@is_identical!48&11^605#9*98@is_identical!49&29^450#9*242@is_identical!55&33^231#9*274@is_empty!47&27^63#9*226@is_empty!47&25^58#9*210@is_empty!52&7^53#9*66@is_empty!52&31^35#9*258@is_empty!51&3^58#9*34@is_valid!50&1^878#9*18@is_identical!55&9^308#9*82@is_identical!48&41^406#9*338@is_empty!55&33^33#9*274@is_identical!50&1^382#9*18@is_empty!56&13^57#9*114@is_identical!49&5^842#9*50@is_empty!49&29^434#9*242@is_full!55&35^80#9*290@is_empty!47&23^59#9*194@is_empty!49&5^60#9*50@is_empty!55&35^67#9*290@is_empty!50&1^102#9*18@is_full!55&33^47#9*274@is_empty!55&9^57#9*82@is_empty!48&41^393#9*338@is_empty!56&45^30#9*370@is_balanced!50&1^783#9*18@
+key|1|key!22&21^155#9*178@
+lea|1|leaf_count!50&1^579#9*18@
+lev|1|levelorder!50&1^1058#9*18@
+max|6|max_r!50&1^532#9*18@max!48&11^326#9*98@max!50&1^518#9*18@max!49&29^469#9*242@max!48&41^429#9*338@max!49&5^548#9*50@
+mer|2|merge_sort!62&39^216#9*322@merge_sort!62&43^178#9*354@
+min|6|min!48&11^340#9*98@min!49&29^493#9*242@min!50&1^546#9*18@min!48&41^447#9*338@min!49&5^586#9*50@min_r!50&1^565#9*18@
+mir|1|mirror!50&1^767#9*18@
+nam|1|name!119&21^65#9*179@
+nod|1|node_counts!50&1^694#9*18@
+one|1|one_child_count!50&1^655#9*18@
+ori|3|ORIGIN!22&21^20#5*179@origin!119&21^66#9*179@origins!22&21^23#9*178@
+par|2|parent!50&1^437#9*18@parent_r!50&1^466#9*18@
+pee|15|peek!49&5^390#9*50@peek_rear!51&3^191#9*34@peek!55&33^149#9*274@peek!55&9^153#9*82@peek_front!51&19^141#9*162@peek_rear!51&19^157#9*162@peek!52&31^92#9*258@peek_front!51&3^177#9*34@peek!56&45^85#9*370@peek!52&7^134#9*66@peek!48&41^464#9*338@peek!55&35^206#9*290@peek!48&11^236#9*98@peek!56&13^107#9*114@peek!49&29^517#9*242@
+pop|6|pop!49&29^534#9*242@pop!48&11^404#9*98@pop!56&45^65#9*370@pop!56&13^86#9*114@pop!49&5^736#9*50@pop!48&41^481#9*338@
+pos|1|postorder!50&1^1026#9*18@
+pre|3|prepend!49&29^562#9*242@preorder!50&1^994#9*18@prepend!49&5^86#9*50@
+pus|2|push!56&13^70#9*114@push!56&45^46#9*370@
+qui|2|quick_sort!62&43^268#9*354@quick_sort!62&39^272#9*322@
+rad|2|radix_sort!62&43^672#9*354@radix_sort!62&39^354#9*322@
+rem|25|remove_front!51&3^133#9*34@remove!55&33^93#9*274@remove_rear!51&19^189#9*162@remove_front!49&29^608#9*242@remove!52&31^111#9*258@remove_front!49&5^287#9*50@remove_many!48&11^198#9*98@remove!48&41^508#9*338@remove!49&29^582#9*242@remove!47&23^149#9*194@remove!49&5^229#9*50@remove_many!48&41^552#9*338@remove!48&11^147#9*98@remove_front!48&41^535#9*338@remove!47&25^148#9*210@remove!52&7^114#9*66@remove_front!48&11^176#9*98@remove_many!49&29^625#9*242@remove!55&9^120#9*82@remove_rear!51&3^155#9*34@remove!47&27^154#9*226@remove_many!49&5^315#9*50@remove!50&1^232#9*18@remove_front!51&19^173#9*162@remove!55&35^160#9*290@
+ret|2|retrieve!50&1^194#9*18@retrieve_r!50&1^850#9*18@
+rev|4|reverse!56&45^157#9*370@reverse!56&13^125#9*114@reverse!49&5^658#9*50@reverse!49&29^648#9*242@
+sel|2|selection_sort!62&39^34#9*322@selection_sort!62&43^57#9*354@
+she|1|shell_sort!62&43^146#9*354@
+sor|3|sort_test!62&39^328#9*322@sort_test!62&43^602#9*354@sort_test!62&37^59#9*306@
+spl|22|split_alt!48&41^610#9*338@split_alt!55&9^271#9*82@split!48&11^588#9*98@split!49&29^665#9*242@split_alt!52&31^225#9*258@split_key!52&7^174#9*66@split_apply!49&29^724#9*242@split!49&5^993#9*50@split_alt!49&5^884#9*50@split_key!52&31^177#9*258@split_apply!48&41^635#9*338@split_key!49&5^1038#9*50@split!48&41^582#9*338@split_alt!55&33^187#9*274@split_alt!56&13^222#9*114@split_th!48&11^533#9*98@split_alt!48&11^568#9*98@split_alt!49&29^695#9*242@split_key!48&41^656#9*338@split_alt!52&7^149#9*66@split_key!48&11^551#9*98@split_key!49&29^745#9*242@
+swa|3|swaps!62&43^27#5*355@swaps!62&39^29#5*323@swaps!62&37^26#5*307@
+to_|1|to_array!62&39^306#9*322@
+tot|1|total_depth!50&1^754#9*18@
+two|1|two_child_count!50&1^616#9*18@
+uni|5|union!48&11^493#9*98@union_r!48&11^783#9*98@union!49&29^778#9*242@union!48&41^689#9*338@union!49&5^952#9*50@
+upd|2|update!50&1^925#9*18@update_r!50&1^943#9*18@
+wri|1|write!22&21^137#9*178@
+-- END TREE

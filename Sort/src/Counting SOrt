@@ -1,0 +1,22 @@
+#ARRAY BASED#
+def counting_sort(a):
+    if len(a) > 0:
+        # Find the largest value in a and set up a counting
+        # array with a size of the value range.
+        counting = [0] * (max(a) + 1)
+
+        # Store the count for each value.
+        for v in a:
+            counting[v] += 1
+
+        i = 0
+
+        for v in range(len(counting)):
+            for _ in range(counting[v]):
+                # Copy each value counting[v] times back into a.
+                a[i] = v
+                i += 1
+        return
+        
+#LINKED BASED#
+not useful for linked

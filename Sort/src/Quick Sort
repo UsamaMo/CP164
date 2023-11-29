@@ -1,0 +1,84 @@
+ALGORITHM
+If the number of values in an array is zero or one, then return
+Pick one value as pivot
+We can choose any value, such as the first, last, middle or some other arbitrary value; however, some choices are better. For example, if we choose the first value in a sorted array, then one set will be always empty and the number of values in the other set decreases linearly. So, the algorithm takes more time. In our array-based solution we pick the middle value in the array as the pivot value. In a linked solution we always pick the front because moving to the middle of the list is non-trivial.
+Partition the array into two (possibly empty) subarrays. Our goal here is to move all values less than the pivot to the left subarray and all values larger than the pivot to the right subarray, and the pivot in between
+
+Easy way:
+The first step is to swap the pivot with the last value.
+Then we initialize two indices  and , where  points to the beginning of the array and  points to the second to the last value.
+We move i to the right until we see an value larger than the pivot ( does not move if it is already pointing to an value larger than pivot). Similarly, we move  to the left until we see an value smaller than the pivot ( does not move if it is already pointing to an value smaller than pivot). When we stop, we swap the array values at positions  and  if  is to the left of  and then repeat this step by moving  and . if  is to the left of , this step is done.
+At the end, swap  with the pivot (last value). Once positioned, pivot values never move.
+Recursively sort the left and right subarrays obtained by partitioning.
+
+
+#ARRAY BASED IMPLEMENTATION#
+def quick_sort(a):
+    _quick_sort_aux(a, 0, len(a) - 1)
+    return
+
+def _quick_sort_aux(a, first, last):
+    # Sort the subarray a[first:last] of array a into ascending order.
+    if first < last:
+        p = _partition(a, first, last)
+        _quick_sort_aux(a, first, p - 1)
+        _quick_sort_aux(a, p + 1, last)
+    return
+
+def _partition(a, first, last):
+    # Partitions a[first:last] into a[first:pivot] and a[pivot+1:last].
+    pivot = (first + last) // 2
+    low = first
+    high = last - 1  # After we remove pivot it will be one smaller
+    pivot_value = a[pivot]
+    a[pivot] = a[last]
+
+    while low <= high:
+        while low <= high and a[low] < pivot_value:
+            low = low + 1
+        while low <= high and a[high] >= pivot_value:
+            high = high - 1
+        if low <= high:
+            a[low] = a[high]
+    a[last] = a[low]
+    a[low] = pivot_value
+    # Return the new pivot position.
+    return low
+    
+#LINKED ARRAY
+def quick_sort(a):
+    if a._front is not None:
+        # Partition the list into three with respect to pivot value.
+        lesser, equals, greater = _partition(a)
+        quick_sort(lesser)
+        quick_sort(greater)
+        # Put all three lists back together in order.
+        if lesser._front is not None:
+            a._append_list(lesser)
+        # equals list contains at least the pivot value.
+        a._append_list(equals)
+        if greater._front is not None:
+            a._append_list(greater)
+    return
+
+def _partition(source):
+    lesser = List()
+    greater = List()
+    equals = List()
+    # Move source front node to the equals list.
+    equals._move_front_to_rear(source)
+    pivot = equals._front
+
+    while source._front is not None:
+        # Process the remaining nodes with respect to the pivot node.
+        if pivot._value > source._front._value:
+            lesser._move_front_to_rear(source)
+        elif pivot._value < source._front._value:
+            greater._move_front_to_rear(source)
+        else:
+            equals._move_front_to_rear(source)
+    return lesser, equals, greater
+    
+    
+    
+#

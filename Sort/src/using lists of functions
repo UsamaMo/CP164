@@ -1,0 +1,16 @@
+from Sorts import Sorts
+
+SORTS = (Sorts.selection_sort, Sorts.insertion_sort, Sorts.quick_sort)
+
+for sort in SORTS:
+    sort_test(sort)
+    
+#testing all these functions one after another, run by a for loop 
+#uses a loop to test each sort using sort_test
+
+
+
+    
+    
+    
+    
